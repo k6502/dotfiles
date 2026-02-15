@@ -1,3 +1,9 @@
+# Default config for sway
+#
+# Copy this to ~/.config/sway/config and edit it to your liking.
+#
+# Read `man 5 sway` for a complete reference.
+
 ### Variables
 #
 # Logo key. Use Mod1 for Alt.
@@ -21,6 +27,9 @@ output * subpixel rgb
 output * max_render_time off
 output * adaptive_sync on
 output * render_bit_depth 10
+
+default_border pixel 2
+default_floating_border pixel 2
 #
 # Example configuration:
 #

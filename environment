@@ -19,9 +19,9 @@ RADV_PERFTEST="video_decode,video_encode,sam,localbos,nircache,sparse"
 AMD_DEBUG="lowlatencydec,lowlatencyenc,w64ge,w64ps,w64cs,dpbb,export_modifier"
 ENABLE_HDR_WSI="1"
 
-SSH_ASKPASS="/usr/bin/ksshaskpass"
+SSH_ASKPASS="/usr/libexec/seahorse/ssh-askpass"
 SSH_ASKPASS_REQUIRE="prefer"
-GIT_ASKPASS="/usr/bin/ksshaskpass"
+GIT_ASKPASS="/usr/libexec/seahorse/ssh-askpass"
 
 QT_QPA_PLATFORM="wayland;xcb"
 QT_SCALE_FACTOR_ROUNDING_POLICY="RoundPreferFloor"
